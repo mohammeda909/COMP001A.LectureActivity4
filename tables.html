@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Webpage</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Awesome Webpage</h1>
+    </header>
+
+    <main>
+<!-- Div container for building tables with fixed size -->
+<div id="table1">
+    <!-- Table with fixed size -->
+    <table style="width: 1000px;">
+        <h2>Table with absolute width values</h2>
+        <!-- Table header -->
+        <thead>
+            <!-- Table row for the header -->
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <!-- Table row for the body -->
+            <tr>
+                <!-- Table data cell -->
+                <td>Data 1.1</td>
+                <td>Data 1.2</td>
+            </tr>
+            <tr>
+                <td>Data 2.1</td>
+                <td>Data 2.2</td>
+            </tr>
+            <tr>
+                <td>Data 3.1</td>
+                <td>Data 3.2</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr>
+<!-- Div container for building responsive tables -->
+<div id="table2">
+    <!-- Responsive table that adjusts its width based on its parent container's width -->
+    <table style="width: 100%;">
+        <h2>Responsive table using relative width values</h2>
+        <!-- Table header -->
+        <thead>
+            <!-- Table row for the header -->
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <!-- Table row for the body -->
+            <tr>
+                <!-- Table data cell -->
+                <td>Data 1.1</td>
+                <td>Data 1.2</td>
+            </tr>
+            <tr>
+                <td>Data 2.1</td>
+                <td>Data 2.2</td>
+            </tr>
+            <tr>
+                <td>Data 3.1</td>
+                <td>Data 3.2</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr>
+<!-- Div container for building responsive tables with merged cells -->
+<div id="table3">
+    <!-- Responsive table with merged cells -->
+    <table style="width: 100%;">
+        <h2>Responsive table with merged cells</h2>
+        <!-- Table header -->
+        <thead>
+            <!-- Table row for the header -->
+            <tr>
+                <th rowspan="2">Header 1</th> <!-- Header cell that spans two rows vertically -->
+                <th colspan="2">Header 2</th> <!-- Header cell that spans two columns horizontally -->
+            </tr>
+            <tr>
+                <th>Sub-header 1</th>
+                <th>Sub-header 2</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <!-- Table row for the body -->
+            <tr>
+                <!-- Table data cell -->
+                <td>Data 1.1</td>
+                <td>Data 1.2</td>
+                <td>Data 1.3</td>
+            </tr>
+            <tr>
+                <td>Data 2.1</td>
+                <td>Data 2.2</td>
+                <td>Data 2.3</td>
+            </tr>
+            <tr>
+                <td>Data 3.1</td>
+                <td>Data 3.2</td>
+                <td>Data 3.3</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 mohammed ali. All rights reserved.</p>
+        <p><a href="https://github.com/mohammeda909" target="_blank">Visit my GitHub profile</a></p>
+    </footer>
+</body>
+</html>
